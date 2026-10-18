@@ -1,0 +1,11 @@
+# Stoichiometry for today's lab session
+formula CuSO4·5H2O
+percent CuSO4·5H2O
+convert H2O 2.5 g
+empirical C=40.00 H=6.71 O=53.29
+molecular CH2O --molar-mass 180.16
+balance "C3H8 + O2 -> CO2 + H2O"
+react "2H2 + O2 -> 2H2O" --mass H2=4.0 --mass O2=32.0 --actual H2O=30.0
+react "Fe + O2 -> Fe2O3" --mass Fe=10 --mass O2=5
+gas --pressure 1 --unit atm --volume 22.414 --temp 0 --formula O2
+solution CuSO4·5H2O --molarity 0.1 --volume-ml 250 --purity 99.0
